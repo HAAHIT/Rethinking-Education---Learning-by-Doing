@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { BOOK_CONTENT } from '../constants';
+import { BOOK_CONTENT } from '@/constants';
 
 const ChapterView: React.FC = () => {
   const { partId, chapterId } = useParams<{ partId: string; chapterId: string }>();
