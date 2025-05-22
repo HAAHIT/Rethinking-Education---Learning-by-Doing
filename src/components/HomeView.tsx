@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BOOK_CONTENT } from '../constants';
+import { BOOK_CONTENT } from '@/constants';
 
 const HomeView: React.FC = () => {
   return (
