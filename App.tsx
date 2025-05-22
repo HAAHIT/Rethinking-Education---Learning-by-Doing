@@ -1,13 +1,11 @@
-
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Layout from './components/Layout';
-import ChapterView from './components/ChapterView';
-import HomeView from './components/HomeView';
+import Layout from './src/components/Layout';
+import ChapterView from './src/components/ChapterView';
+import HomeView from './src/components/HomeView';
 import { BOOK_CONTENT } from './constants';
 
 const App: React.FC = () => {
-  // Default to home view
   return (
     <HashRouter>
       <Layout>
